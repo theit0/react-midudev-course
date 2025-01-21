@@ -1,0 +1,76 @@
+{
+    "Search": [
+        {
+            "Title": "Tenet",
+            "Year": "2020",
+            "imdbID": "tt6723592",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMTU0ZjZlYTUtYzIwMC00ZmQzLWEwZTAtZWFhMWIwYjMxY2I3XkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Tenet: 10 min Behind the Scenes",
+            "Year": "2020",
+            "imdbID": "tt13061794",
+            "Type": "movie",
+            "Poster": "N/A"
+        },
+        {
+            "Title": "Looking at the World in a New Way: The Making of Tenet",
+            "Year": "2020",
+            "imdbID": "tt13920556",
+            "Type": "movie",
+            "Poster": "N/A"
+        },
+        {
+            "Title": "The Tenet",
+            "Year": "2018",
+            "imdbID": "tt3626142",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMmFiZjRkYjEtMTgxMS00ZjZlLTkyNjctNGVhMTg1ODQ2MjQxXkEyXkFqcGdeQXVyOTQxODA4Nw@@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Tenet Noctis",
+            "Year": "2019",
+            "imdbID": "tt6141830",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BYmUwMTI5MjYtMjFiMi00MGRhLWFjZDMtYjBlZjQ2YmFiMWI3L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMzM5NzYyNjc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Roma te tenet et amoR",
+            "Year": "2011",
+            "imdbID": "tt2069901",
+            "Type": "movie",
+            "Poster": "N/A"
+        },
+        {
+            "Title": "Dark Tenet",
+            "Year": "2014",
+            "imdbID": "tt2243233",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BNzdlNmIzNjMtYzMyNS00NjkwLWJkNjAtNjhlNzIyZTIyZDUwXkEyXkFqcGdeQXVyNDk3OTU1ODc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Tenet - a Spoof",
+            "Year": "2020",
+            "imdbID": "tt18359586",
+            "Type": "movie",
+            "Poster": "N/A"
+        },
+        {
+            "Title": "40 - Tenet (2020)",
+            "Year": "2020",
+            "imdbID": "tt23870124",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BOTI1Mzc1ZjctYmU5My00ZTliLWI1ZTktMTRjYWNhNTRkODNkXkEyXkFqcGc@._V1_SX300.jpg"
+        },
+        {
+            "Title": "Preparation: A Teacher's Tenet",
+            "Year": "2023",
+            "imdbID": "tt29670081",
+            "Type": "movie",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BZWQxMjA1M2ItNGI2Ni00NDY3LTg5MWUtNjc1MzcwMjE3YmIyXkEyXkFqcGdeQXVyMTExMjEzMDk@._V1_SX300.jpg"
+        }
+    ],
+    "totalResults": "11",
+    "Response": "True"
+}
