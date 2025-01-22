@@ -1,19 +1,18 @@
-
 import "./App.css"
 import { Movies } from "./components/Movies"
 import { useMovies } from "./hooks/useMovies"
 import { useSearch } from "./hooks/useSearch"
 
-/* const SEARCH_URL = `http://www.omdbapi.com/?apikey=d6ad7582&` */
 
 function App() {
  
-  const {movies} = useMovies()
   const {search,updateSearch,error} = useSearch();
+  const {movies,getMovies,loading} = useMovies({search})
+
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    console.log(search)
+    getMovies()
   }
 
   const handleChange = (event) => {
@@ -39,10 +38,12 @@ function App() {
           <p style={{color:'red'}}>{error}</p>
         }
       </header>
-     
-      <main>
-        <Movies movies={movies} />
-      </main>
+      
+      {
+        loading
+        ? (<p>Loading...</p>)
+        : (<Movies movies={movies} /> )
+      }
     </div>
   )
 }

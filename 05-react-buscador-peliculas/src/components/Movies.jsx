@@ -1,16 +1,18 @@
 /* eslint-disable react/prop-types */
 function RenderMovies ({movies}) {
     return (
-        <ul>
+        <ul className="movies">
             {
                 movies.map(movie => {
                     const {id,title,year,poster} = movie
                     return (
-                    <li key={id}>
-                        <h3>{title}</h3>
-                        <p>{year}</p>
-                        <img src={poster} alt={title} />
-                    </li>
+                        <li className="movie" key={id}>
+                            <div>
+                                <h3>{title}</h3>
+                                <p>{year}</p>
+                            </div>
+                            <img src={poster} alt={title} />
+                        </li>
                     )
                 })
             }
