@@ -20,6 +20,7 @@ function App() {
   }
 
   const handleChange = (event) => {
+    console.log(event.target.value)
     updateSearch(event.target.value)
   }
 
@@ -28,13 +29,13 @@ function App() {
       <header>
         <h1>Buscador de peliculas</h1>
         <form className="form" onSubmit={handleSubmit}>
+          <input type="checkbox" onChange={handleSort} checked={sort}/>
           <input 
             onChange={handleChange} 
             name="query" 
             value={search} 
             type="text" 
             placeholder="Avengers, Star Wars, The matrix..."/>
-            <input type="checkbox" onChange={handleSort} checked={sort}/>
           <button type="submit">Buscar</button>
         </form>
       </header>
