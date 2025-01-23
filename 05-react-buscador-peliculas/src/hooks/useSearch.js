@@ -14,11 +14,6 @@ export function useSearch () {
       return
     }
 
-    if (search === '') {
-      setError('No se puede buscar una pelicula vacia')
-      return
-    }
-
     if (search.match(/^\d+$/)){
       setError('No se puede buscar una pelicula con un numero')
       return
