@@ -12,9 +12,10 @@ function App() {
 
   const debouncedGetMovies = useCallback(
       debounce(search=>{
+        console.log('debouncedMovies')
         getMovies({search})
       },500)
-  ,[getMovies])
+  ,[])
 
   const handleSort = () => {
     setSort(!sort)
